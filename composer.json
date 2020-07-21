@@ -13,8 +13,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "psr-4": {
-        "Flower\\Rose\\": "src/Flower/Rose",
-        "Flower\\Lily\\": "src/Flower/Lily"
-      }   
+    "autoload-dev": {
+        "psr-4": {
+            "Flower\\Rose\\": "src/Flower/Rose",
+            "Flower\\Lily\\": "src/Flower/Lily"
+        } 
+    }  
 }
