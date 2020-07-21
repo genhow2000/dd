@@ -1,23 +1,16 @@
 {
-    "name": "aden/dd",
-    "description": "log",
+    "name": "aden551/dd",
+    "description": "Log",
     "type": "library",
     "require": {
         "php": ">=7.1"
     },
-    "license": "nginx",
+    "license": "dev",
     "authors": [
         {
-            "name": "chuang Aden",
+            "name": "aden",
             "email": "genhow2000@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "autoload": {
-        "psr-4": {
-          "Aden\\": "src/aden"
-        }
-      }
-
-
+    "minimum-stability": "dev"
 }
