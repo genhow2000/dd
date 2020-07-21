@@ -12,5 +12,9 @@
             "email": "genhow2000@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "psr-4": {
+        "Flower\\Rose\\": "src/Flower/Rose",
+        "Flower\\Lily\\": "src/Flower/Lily"
+      }   
 }
