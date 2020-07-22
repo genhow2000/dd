@@ -3,15 +3,15 @@
  * Created by PhpStorm.
  * User: Lingan
  * Date: 2017/11/6
- * Time: 21:38
+ * Time: 21:39
  */
 
-namespace src\aden;
+namespace Flower\Rose;
 
-class test
+class Rose
 {
     public function desc()
     {
-        echo "this is lily flower";
+        echo "this is rose flower";
     }
 }

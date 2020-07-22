@@ -1,22 +1,22 @@
 {
-    "name": "aden551/dd",
-    "description": "Log",
+    "name": "aden551/try-make-package",
+    "description": "log",
     "type": "library",
-    "license": "dev",
+    "require": {
+        "php": ">=7.1"
+    },
+    "license": "MIT",
     "authors": [
-      {
-        "name": "aden",
-        "email": "genhow2000@gmail.com"
-      }
+        {
+            "name": "aden",
+            "email": "aden@551.com.tw"
+        }
     ],
     "minimum-stability": "dev",
-    "require": {
-      "php": ">=7.0"
-    },
     "autoload": {
-      "psr-4": {
-        "Flower\\Rose\\": "src/Flower/Rose",
-        "Flower\\Lily\\": "src/Flower/Lily"
-      }
+	"psr-4": {
+		"Flower\\Rose\\": "src/Flower/Rose",
+		"Flower\\Lily\\": "src/Flower/Lily"
+	}
     }
 }
