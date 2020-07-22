@@ -19,13 +19,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Encore\\Admin\\LogViewer\\": "src/"
+            "Encore\\Admin\\LogGet\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Encore\\Admin\\LogViewer\\LogViewerServiceProvider"
+                "Encore\\Admin\\LogGet\\LogGetServiceProvider"
             ]
         }
     }

@@ -1,15 +1,15 @@
 <?php
 
-namespace Encore\Admin\LogViewer;
+namespace Encore\Admin\LogGet;
 
 use Illuminate\Support\ServiceProvider;
 
-class LogViewerServiceProvider extends ServiceProvider
+class LogGetServiceProvider extends ServiceProvider
 {
     public function boot()
     {
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'laravel-admin-logs');
 
-        LogViewer::boot();
+        LogGet::boot();
     }
 }

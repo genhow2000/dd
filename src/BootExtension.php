@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\LogViewer;
+namespace Encore\Admin\LogGet;
 
 use Encore\Admin\Admin;
 
@@ -25,18 +25,18 @@ trait BootExtension
     {
         parent::routes(function ($router) {
             /* @var \Illuminate\Routing\Router $router */
-            $router->get('logs', 'Encore\Admin\LogViewer\LogController@index')->name('log-viewer-index');
-            $router->get('logs/{file}', 'Encore\Admin\LogViewer\LogController@index')->name('log-viewer-file');
-            $router->get('logs/{file}/tail', 'Encore\Admin\LogViewer\LogController@tail')->name('log-viewer-tail');
+            $router->get('logs', 'Encore\Admin\LogGet\LogController@index')->name('log-viewer-index');
+            $router->get('logs/{file}', 'Encore\Admin\LogGet\LogController@index')->name('log-viewer-file');
+            $router->get('logs/{file}/tail', 'Encore\Admin\LogGet\LogController@tail')->name('log-viewer-tail');
         });
     }
 
     /**
      * {@inheritdoc}
      */
-    public static function import()
+    public static function loget()
     {
-        parent::createMenu('Log viewer', 'logs', 'fa-database');
+        parent::createMenu('Log get', 'logs', 'fa-database');
 
         parent::createPermission('Logs', 'ext.log-viewer', 'logs*');
     }

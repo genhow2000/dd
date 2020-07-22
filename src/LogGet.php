@@ -1,13 +1,13 @@
 <?php
 
-namespace Encore\Admin\LogViewer;
+namespace Encore\Admin\LogGet;
 
 use Encore\Admin\Extension;
 
 /**
- * Class LogViewer.
+ * Class LogGet.
  */
-class LogViewer extends Extension
+class LogGet extends Extension
 {
     use BootExtension;
 
@@ -47,7 +47,7 @@ class LogViewer extends Extension
     ];
 
     /**
-     * LogViewer constructor.
+     * LogGet constructor.
      *
      * @param null $file
      */
