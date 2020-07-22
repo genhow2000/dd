@@ -1,21 +1,32 @@
 {
     "name": "aden551/dd",
-    "description": "log",
+    "description": "learning for log",
     "type": "library",
-    "require": {
-        "php": ">=7.1"
-    },
+    "keywords": ["laravel-admin", "log", "viewer"],
     "license": "MIT",
     "authors": [
         {
-            "name": "aden",
+            "name": "Aden",
             "email": "genhow2000@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
     "autoload": {
         "psr-4": {
-            "Services\\dd\\": "src/Services/dd"
+            "Encore\\Admin\\LogViewer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Encore\\Admin\\LogViewer\\LogViewerServiceProvider"
+            ]
         }
     }
 }
