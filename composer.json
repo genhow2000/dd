@@ -1,5 +1,5 @@
 {
-    "name": "aden551/try-make-package",
+    "name": "aden551/dd",
     "description": "log",
     "type": "library",
     "require": {
@@ -9,14 +9,14 @@
     "authors": [
         {
             "name": "aden",
-            "email": "aden@551.com.tw"
+            "email": "genhow2000@gmail.com"
         }
     ],
     "minimum-stability": "dev",
     "autoload": {
-	"psr-4": {
-		"Flower\\Rose\\": "src/Flower/Rose",
-		"Flower\\Lily\\": "src/Flower/Lily"
-	}
+        "psr-4": {
+            "Flower\\Rose\\": "src/Flower/Rose",
+            "Flower\\Lily\\": "src/Flower/Lily"
+        }
     }
 }
