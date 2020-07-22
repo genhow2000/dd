@@ -15,7 +15,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Services\\": "src/Services/"
+            "Services\\dd\\": "src/Services/dd"
         }
     }
 }
