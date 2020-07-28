@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\LogGet;
+namespace Aden\Tool;
 
 use Encore\Admin\Facades\Admin;
 use Encore\Admin\Layout\Content;

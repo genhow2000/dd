@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\LogGet\Models;
+namespace Aden\Tool\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

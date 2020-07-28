@@ -19,13 +19,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Encore\\Admin\\LogGet\\": "src/"
+            "Aden\\Tool\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Encore\\Admin\\LogGet\\LogGetServiceProvider"
+                "Aden\\Tool\\LogGetServiceProvider"
             ]
         }
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\LogGet;
+namespace Aden\Tool;
 
 use Encore\Admin\Admin;
 
@@ -25,9 +25,9 @@ trait BootExtension
     {
         parent::routes(function ($router) {
             /* @var \Illuminate\Routing\Router $router */
-            $router->get('logs', 'Encore\Admin\LogGet\LogController@index')->name('log-viewer-index');
-            $router->get('logs/{file}', 'Encore\Admin\LogGet\LogController@index')->name('log-viewer-file');
-            $router->get('logs/{file}/tail', 'Encore\Admin\LogGet\LogController@tail')->name('log-viewer-tail');
+            $router->get('logs', 'Aden\Tool\LogController@index')->name('log-viewer-index');
+            $router->get('logs/{file}', 'Aden\Tool\LogController@index')->name('log-viewer-file');
+            $router->get('logs/{file}/tail', 'Aden\Tool\LogController@tail')->name('log-viewer-tail');
         });
     }
 

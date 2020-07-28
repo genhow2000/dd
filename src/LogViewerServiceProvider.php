@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\LogGet;
+namespace Aden\Tool;
 
 use Illuminate\Support\ServiceProvider;
 
