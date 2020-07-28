@@ -1,4 +1,4 @@
-#Install (Laravel)
+# Install (Laravel)
 
 install via composer
 ```diff
