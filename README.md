@@ -21,6 +21,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Aden\Tool\Dd;
 
+# 支持的方法
 
 class TestController extends Controller
 {
