@@ -14,7 +14,9 @@ add it in your controller
 use Aden\Tool\Dd;
 ```
 # Function
+```diff
 !find(array/string $order)
+```
 
 # Example
 ```diff
