@@ -14,8 +14,7 @@ add it in your controller
 use Aden\Tool\Dd;
 ```
 
-
-#Example
+# Example
 ```diff
 <?php
 namespace App\Http\Controllers;
