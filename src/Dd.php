@@ -1,8 +1,8 @@
 <?php
 
-namespace Encore\Admin\LogGet;
+namespace Aden\Tool;
 
-use Encore\Admin\LogGet\Models\Getlog;
+use Aden\Tool\Models\Getlog;
 
 use Encore\Admin\Facades\Admin;
 use Encore\Admin\Layout\Content;
