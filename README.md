@@ -16,13 +16,13 @@ use Aden\Tool\Dd;
 # Function
 ```diff
 !log(array/string $log1,log2,log3)
-description：The Code is functioning properly.save your data in database.But it will add the log in your database,the table name is getlog.
-parameter：$log1 is array/string
+Description：The Code is functioning properly.save your data in database.But it will add the log in your database,the table name is getlog.
+Parameter：$log1 is array/string
 
 !Dd(array/string $log1,log2,log3)
-description：stop code and dd show it .save your data in database.But it will add the log in your database,the table name is getlog.
-parameter：$log1 is array/string
-return：dd($log1)
+Description：stop code and dd show it .save your data in database.But it will add the log in your database,the table name is getlog.
+Parameter：$log1 is array/string
+Return：dd($log1)
 
 ```
 
