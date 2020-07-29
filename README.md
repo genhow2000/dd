@@ -15,7 +15,10 @@ use Aden\Tool\Dd;
 ```
 # Function
 ```diff
-!find(array/string $order)
+!Dd(array/string $log1,log2,log3)
+description：
+parameter：
+return：
 ```
 
 # Example
