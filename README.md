@@ -13,6 +13,8 @@ add it in your controller
 ```diff
 use Aden\Tool\Dd;
 ```
+# Function
+!find(array/string $order)
 
 # Example
 ```diff
@@ -20,8 +22,6 @@ use Aden\Tool\Dd;
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Aden\Tool\Dd;
-
-# 支持的方法
 
 class TestController extends Controller
 {
