@@ -8,17 +8,19 @@ run migrate
 ```diff
 php artisan migrate --path=vendor/aden551/dd/database/migrations
 ```
-
-
-
-
+add it in your controller
 
 ```diff
-#
+use Aden\Tool\Dd;
+```
+
+
+#Example
+```diff
 <?php
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
-use Aden\Tool\dd;
+use Aden\Tool\Dd;
 
 
 class TestController extends Controller
